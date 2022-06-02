@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:background="@drawable/higherlower"
+    tools:context=".HomeActivity">
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/startQuizBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="500dp"
+        android:layout_marginEnd="20dp"
+android:layout_marginTop="590dp"
+        android:background="@drawable/round_back_green20"
+        android:text="Play Game"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+
+        android:id="@+id/muzicaLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="174dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="476dp"
+        android:layout_marginEnd="222dp"
+        android:layout_marginBottom="81dp"
+        android:background="@drawable/round_back_white10"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/muzica" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Music"
+            android:textColor="#CC000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fotbalLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="174dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="215dp"
+        android:layout_marginTop="476dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="81dp"
+        android:background="@drawable/round_back_white10"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/fotbal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Football"
+            android:textColor="#CC000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/gamesLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="193dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="226dp"
+        android:layout_marginBottom="495dp"
+        android:background="@drawable/round_back_white10"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/games" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Games"
+            android:textColor="#CC000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/programmingLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="198dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="223dp"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="492dp"
+        android:background="@drawable/round_back_white10"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/programminglang" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Programming languages"
+            android:textColor="#CC000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="162dp"
+        android:layout_marginTop="324dp"
+        android:layout_marginEnd="191dp"
+        android:layout_marginBottom="388dp"
+        android:text=""
+        android:textColor="#FFFFFF"/>
+
+
+</RelativeLayout>
+
+
